@@ -558,6 +558,7 @@ def test_connection_config_serialization():
         "type": "duckdb",
         "extensions": [],
         "pre_ping": False,
+        "pretty_sql": False,
         "connector_config": {},
         "database": "my_db",
     }
@@ -567,6 +568,7 @@ def test_connection_config_serialization():
         "type": "duckdb",
         "extensions": [],
         "pre_ping": False,
+        "pretty_sql": False,
         "connector_config": {},
         "database": "my_test_db",
     }
